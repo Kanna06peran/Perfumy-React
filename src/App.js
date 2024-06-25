@@ -5,10 +5,10 @@ import About from "./components/About"
 import Contact from "./components/Contact"
 
 function App()
-{<div><Navbar></Navbar>
+{return(<div><Navbar></Navbar>
     <Search></Search>
     <Product></Product>
     <About></About>
-    <Contact></Contact></div>}
+    <Contact></Contact></div>)}
 
 export default App
